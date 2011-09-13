@@ -1,0 +1,29 @@
+one:
+  value: 1.5
+  scale_from: Kelvin
+  scale_to: Celsius
+
+two:
+  value: 1.5
+  scale_from: Kelvin
+  scale_to: Fahrenheit
+  
+three:
+  value: -271.65
+  scale_from: Celsius
+  scale_to: Fahrenheit
+
+four:
+  value: -271.65
+  scale_from: Celsius
+  scale_to: Kelvin
+
+five:
+  value: -456.97
+  scale_from: Fahrenheit
+  scale_to: Celsius
+
+six:
+  value: -456.97
+  scale_from: Fahrenheit
+  scale_to: Kelvin

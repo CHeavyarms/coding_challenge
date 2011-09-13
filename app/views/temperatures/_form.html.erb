@@ -1,0 +1,6 @@
+<%= semantic_form_for(@temperature) do |f| %>
+  <%= f.input :value, :label => "Temperature to convert" %>
+  <%= f.input :scale_from, :label => "From:", :as => :select, :collection => @scales, :include_blank => false %>
+  <%= f.input :scale_to, :label => "To:", :as => :select, :collection => @scales, :include_blank => false %>
+  <%= f.submit "Convert" %>
+ <% end %>

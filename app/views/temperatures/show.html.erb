@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Original Value:</b>
+  <%= @temperature.labeled %>
+</p>
+<p>
+  <b>Converted Value:</b>
+  <%= @temperature.labeled_conversion %>
+</p>
+
+<%= link_to 'Change Conversion', edit_temperature_path(@temperature) %> |
+<%= link_to 'All Conversions', temperatures_path %> |
+<%= link_to 'New Conversion', new_temperature_path %>
